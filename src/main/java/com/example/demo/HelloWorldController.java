@@ -8,5 +8,10 @@ public class HelloWorldController {
     @RequestMapping("/")  
     public String hello() {  
         return "Hello World!";  
-    }  
+    }
+
+    @RequestMapping("/ping")  
+    public String ping() {
+        return "pong";  
+    }
 }  
